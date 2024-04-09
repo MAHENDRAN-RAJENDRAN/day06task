@@ -12,3 +12,20 @@ myCar.make = 'Ford';
 myCar.model = 'Mustang';
 myCar.year = 1969;
 
+blog about difference between http1.1&http2
+
+http1.1
+
+•	ssl is not required however its recommended
+•	slow encryption 
+•	one client - server request per TCP connection 
+•	no header compression 
+•	there is no flow priority 
+
+http2
+
+•	ssl is not required but it is recommended
+•	faster encryption
+•	multi-master multiplexer . occurs on multiple computers at a single time 
+•	metadata compression using improved algorithms that improve performance and security
+•	improved flow priority mechanisms are used  
