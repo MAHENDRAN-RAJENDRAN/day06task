@@ -1,0 +1,14 @@
+	Blog about objects and its internal representation in  Javascript.
+•	Objects, in JavaScript it is most important data-type and forms the building blocks for modern JavaScript. These objects are quite different from JavaScript’s primitive data-types(Number, String, Boolean, null, undefined and symbol) in the sense that while these primitive data-types all store a single value each (depending on their types).
+
+•	objects in JavaScript may be defined as an unordered collection of related data, of primitive or reference types, in the form of “key: value” pairs. 
+
+•	For Eg. If your object is a student, it will have properties like name, age, address, id, etc and methods like updateAddress, updateNam, etc.
+
+•	Like all JavaScript variables, both the object name (which could be a normal variable) and property name are case sensitive. You can define a property by assigning it a value. For example, let’s create an object named myCar and give it properties named make, model, and year as follows:
+
+var myCar = new Object();
+myCar.make = 'Ford';
+myCar.model = 'Mustang';
+myCar.year = 1969;
+
